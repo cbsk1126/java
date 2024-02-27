@@ -1,5 +1,6 @@
 package t1_variable;
 
+// 정수형 타입(byte, char, short, int, long)
 public class Test3 {
 	public static void main(String[] args) {
 		byte bb1, bb2;
@@ -41,5 +42,14 @@ public class Test3 {
 		
 		int cc3 = 'a';
 		System.out.println("cc3 : " + cc3);
+		
+		char cc4 = '한';
+		System.out.println("cc4 : " + cc4);
+		
+		int cc5 = '한';
+		System.out.println("cc5 : " + cc5);
+		
+		char cc6 = '\u0041';
+		System.out.println("cc6 : " + cc6);
 	}
 }
